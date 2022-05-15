@@ -8,7 +8,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import javafx.scene.image.Image;
 
 public class WineModel 
 {
@@ -32,6 +31,7 @@ public class WineModel
 
 			// Read the result into a JSON Element
 			jse = new JsonParser().parse(br);
+				
 
 			// Close the connection
 			is.close();
